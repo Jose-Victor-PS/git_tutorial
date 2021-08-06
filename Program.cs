@@ -12,7 +12,11 @@ namespace HelloWorld
         enum Estado { Running, Stopped, Migrating, Error }
         static void Main(string[] args)
         {
-            FIZ BESTEIRA
+            const String greetings = "CONTAGEM QUE NAO SEI DIZER NO FOR LOOP... ";
+            for (int i = 10; i > 0; i--)
+            {
+                Console.WriteLine(greetings + i);
+            }
 
             Console.WriteLine("Digite um numero Maneiro de Entrada: ");
             int entrada = Convert.ToInt32(Console.ReadLine());
