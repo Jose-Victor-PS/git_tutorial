@@ -18,7 +18,7 @@ namespace HelloWorld
                 Console.WriteLine(greetings + i);
             }
 
-            Console.WriteLine("Digite um numero: ");
+            Console.WriteLine("Digite um numero Maneiro de Entrada: ");
             int entrada = Convert.ToInt32(Console.ReadLine());
 
             if (entrada > 10)
