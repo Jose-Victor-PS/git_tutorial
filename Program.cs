@@ -12,7 +12,7 @@ namespace HelloWorld
         enum Estado { Running, Stopped, Migrating, Error }
         static void Main(string[] args)
         {
-            const String greetings = "Contagem de dez até um... ";
+            const String greetings = "Contagem QUE VAI DE dez até um... ";
             for (int i = 10; i > 0; i--)
             {
                 Console.WriteLine(greetings + i);
