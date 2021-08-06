@@ -36,7 +36,7 @@ namespace HelloWorld
 
             int j = 1;
             A:
-                Console.WriteLine("Contagem incremental... " + j);
+                Console.WriteLine("Increasing count... " + j);
                 j++;
             const int compr = 10;
             if (j - compr <= 0)
