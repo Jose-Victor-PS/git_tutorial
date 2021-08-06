@@ -12,7 +12,7 @@ namespace HelloWorld
         enum Estado { Running, Stopped, Migrating, Error }
         static void Main(string[] args)
         {
-            const String greetings = "COUNTING NO NAME NO FOR LOOP... ";
+            const String greetings = "CONTAGEM DE LEGAL NO FOR LOOP... ";
             for (int i = 10; i > 0; i--)
             {
                 Console.WriteLine(greetings + i);
